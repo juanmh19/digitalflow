@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/animaciones.css">
+    <title>Digital Flow - 创建您的网站</title>
+    <link rel="shortcut icon" href="/assets/logos/logosin2.png" type="image/x-icon" sizes="10x10"/>
+    <meta name="description" content="Digital Flow专注于构建突出并与您的受众建立联系的尖端网络解决方案。无论您需要企业网站、在线商店还是定制平台。"/>
+</head>
+<body class="content">
+    <!-- 头部 头部 头部 头部 头部 -->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <img id="logo_header" src="/assets/logos/logosin4.png" alt="logo_header">
+            </div>
+
+            <div class="navegacion">
+                <ul>
+                    <li><a href="#" onclick="inicio()">首页</a></li>
+                    <li><a href="#" onclick="nosotross()">关于我们</a></li>
+                    <li><a href="#" onclick="servicioss()">服务</a></li>
+                    <li><a href="#" onclick="cotizacionn()">价格</a></li>
+                    <li><a href="#" onclick="preguntas()">常见问题</a></li>
+                </ul>
+            </div>
+
+            <img class="menu" id="hamburguesa" src="/assets/iconos/hambur_null.svg" alt="menu_hamburguesa">
+            <a href="#" onclick="contact()"><button aria-label="联系我们">联系我们</button></a>
+        </nav>
+    </header>
+    <div class="menu_menu" id="contenido_hamburguesa">
+        <ul>
+            <li><a href="#" onclick="inicio()">首页</a></li>
+            <li><a href="#" onclick="nosotross()">关于我们</a></li>
+            <li><a href="#" onclick="servicioss()">服务</a></li>
+            <li><a href="#" onclick="cotizacionn()">价格</a></li>
+            <li><a href="#" onclick="preguntas()">常见问题</a></li>
+        </ul>
+    </div>
+
+    <!-- 英雄 英雄 英雄 英雄 英雄 英雄 英雄 /// 第一节 第一节 -->
+    <section class="seccion1">
+        <div id="particles-js"></div>
+        <div class="sec1-izq">
+            <h1>我们将您的愿景<br> <span>变成数字现实</span></h1>
+            <p>我们专注于构建突出并与您的受众建立联系的尖端网络解决方案。无论您需要企业网站、在线商店还是定制平台，我们的网络开发专家团队将与您密切合作，共同创建真正有影响的数字体验。</p>
+        </div>
+
+        <div class="sec1-der">
+            <img id="logo_seccion" src="/assets/logos/logosin3-removebg-preview.png" alt="logo_seccion">
+        </div>
+    </section>
+    
+    <!-- 第二节 第二节 第二节 第二节 /// 您需要哪个页面 -->
+    <section class="seccion2-pag" id="seccion2">
+        <h2>您需要哪个页面？</h2>
+        
+        <div class="mitad-sec2">
+            
+                <div class="incluyen" id="pag_uno">
+                    <a href="paginas.html#sec2">
+                        <h3>经济型</h3>
+                        <ul>
+                            <li><b>✓</b>4个部分</li>
+                            <li><b>✓</b>定位</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>Google我的商店</li>
+                            <li><b>✓</b>WhatsApp</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <div class="incluyen" id="pag_dos" >
+                    <a href="#" onclick="basica()">
+                        <h3>基本</h3>
+                        <ul>
+                            <li><b>✓</b>5个部分</li>
+                            <li><b>✓</b>外部部分</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>交互式网站</li>
+                            <li><b>✓</b>登录</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <div class="incluyen" id="pag_tres">
+                    <a href="#" onclick="autogestionable()">
+                        <h3 class="gradiente">自<span>管理</span></h3>
+                        <ul>
+                            <li><b>✓</b>可管理</li>
+                            <li><b>✓</b>支付系统</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>高级SEO</li>
+                            <li><b>✓</b>数据库</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <div class="incluyen" id="pag_cuatro" >
+                    <a href="#" id="apag_cuatro" onclick="ecommerce()">
+                        <h3 class="gradiente">电子<span>商务</span></h3>
+                        <ul>
+                            <li><b>✓</b>商店购物车</li>
+                            <li><b>✓</b>图形设计</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>商品搜索</li>
+                            <li><b>✓</b>全面控制</li>
+                        </ul> 
+                    </a>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- 第三节 第三节 //// 关于我们，星星动画 -->
+    <section class="seccion3" id="seccion3">
+        <h3>关于我们</h3>
+        <div class="contenedor-sec3" id="contenedor_sec3">
+            <div class="sec3-izq">
+                <p>我们是一家位于阿根廷的网络代理商，10年前开始了我们的旅程。我们的设计、编程和在线营销专家团队汇集了质量数字解决方案的愿景。从那以后，我们发展壮大，成功完成了各种项目，与国内外客户合作。我们以成为阿根廷网络代理商为荣，将我们的激情、创造力和经验带入帮助企业在数字世界中脱颖而出。</p>
+                
+                <div class="iconos">
+                    <div>
+                        <img id="icono_web" src="/assets/iconos/web-predeterminado.png" alt="icono_web">
+                        <span>+50</span>
+                        <p>创建的<span class="animacion">页面</span></p>
+                    </div>
+                    <div>
+                        <img id="estrella" src="/assets/iconos/estrella-predeterminado.png" alt="icono_estrella">
+                        <span>4/5</span>
+                        <p>推荐</p>
+                    </div>
+                    <div>
+                        <img id="icono_mujer" src="/assets/iconos/mujer-predeterminado.png" alt="icono_mujer">
+                        <span>+10</span>
+                        <p><span class="animacion">经验</span>年数</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sec3-der">
+                <img src="/assets/img/priscilla-du-preez-XT1htKRl_0A-unsplash.jpg" alt="imagen_persona_acompañamiento">
+            </div>
+        </div>
+    </section>
+
+    <!-- 第四节 第四节 //// 获取您网站的价格，价格计算器 -->
+    <section class="seccion4" id="seccion4">
+        <h3>为您的网站获取价格</h3>
+        <p class="precio_justo">公平的项目价格</p>
+        <p class="precio_justo"><span id="precio_justo">以免您被收取过高的费用</span></p>
+
+        <form class="form" action="">
+            <div>
+                <label for="seccion">部分<a href="#" class="help" id="pregunta_uno" onclick="secciones()">?</a></label>
+                <input type="number" name="" id="seccion" class="select" min="0">
+    
+                <!-- 新的输入框 新的输入框 -->
+                <label for="select">图形设计<a href="#" onclick="selectio()" class="help">?</a></label>
+                <select name="" id="select" class="select">
+                    <option value="">无</option>
+                    <option value="50">标志</option>
+                    <option value="50">图标</option>
+                    <option value="50">插图</option>
+                    <option value="150">完整</option>
+                    <option value="">自定义</option>
+                </select>
+    
+                <!-- 新的输入框 新的输入框 -->
+                <label for="alojamiento">Web 托管<a href="#" class="help" onclick="alojamiento()">?</a></label>
+                <select name="" id="alojamiento" class="select">
+                    <option value="">否</option>
+                    <option value="50">是</option>
+                </select>
+            </div>
+
+            <div>
+                <!-- 新的输入框 新的输入框 -->
+                <label for="seccion_externaa">外部部分<a href="#" class="help" onclick="seccion_externa()">?</a></label> 
+                <input type="number" id="seccion_externaa" class="select" min="0">
+    
+                <!-- 新的输入框 新的输入框 -->
+                <label for="diseño_web">网页设计<a href="#" class="help" onclick="diseño_web()">?</a></label>
+                <select name="" id="diseño_web" class="select">
+                    <option value="">否</option>
+                    <option value="15">基本</option>
+                    <option value="15">复古</option>
+                    <option value="15">简约</option>
+                    <option value="15">现代</option>
+                    <option value="">自定义</option>
+                </select>
+    
+                <!-- 新的输入框 新的输入框 -->
+                <label for="sistema_de_pago">支付系统<a href="#" class="help" onclick="sistema_de_pago()">?</a></label>
+                <select name="" id="sistema_de_pago" class="select">
+                    <option value="0">否</option>
+                    <option value="25">直接</option>
+                    <option value="50">购物车</option>
+                </select>
+            </div>
+
+            <div>
+                <!-- 新的输入框 新的输入框 -->
+                <label for="seo">SEO <a href="#" class="help" onclick="seo()">?</a></label>
+                <select name="" id="seo" class="select">
+                    <option value="">否</option>
+                    <option value="25">基本</option>
+                    <option value="50">完整</option>
+                </select>
+    
+                <!-- 新的输入框 新的输入框 -->
+                <label for="mantenimiento">维护<a href="#" class="help" onclick="mantenimiento()">?</a></label>
+                <select name="" id="mantenimiento" class="select">
+                    <option value="">否</option>
+                    <option value="25">经济型</option>
+                    <option value="50">基本</option>
+                    <option value="90">完整</option>
+                    <option value="140">专用</option>
+                </select>
+    
+                <!-- 新的输入框 新的输入框 -->
+                <label for="autogestion">自我管理<a href="#" class="help" onclick="autogestion()">?</a></label>
+                <select name="" id="autogestion" class="select">
+                    <option value="">否</option>
+                    <option value="50">部分</option>
+                    <option value="100">产品</option>
+                    <option value="150">完整</option>
+                    <option value="">自定义</option>
+                </select>
+            </div>
+        </form>
+            <div class="analisis">
+                <div class="analisis2">
+                    <button class="precio" aria-label="价格:"></button>
+                    <button onclick="contact()" class="analisis_contactanos" aria-label="联系我们">联系我们</button>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- 页脚 页脚 页脚 页脚 -->
+    <footer >
+        <div class="imagen-footer">
+            <img id="logo_footer" src="/assets/logos/logosin4.png" alt="logo_footer">
+            <p>Digital <span>Flow</span></p>
+        </div>
+        <div class="contenedor-footer">
+            <div>
+                <ul>
+                    <li><strong>服务</strong></li>
+                    <li class="footer_li"><a href="#seccion2">网站</a></li>
+                    <li class="footer_li"><a href="#secion4">价格</a></li>
+                    <li class="footer_li"><a href="preguntas.html#seccion2_preg">问题</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>关于我们</strong></li>
+                    <li class="footer_li"><a href="paginas.html#secc2-form">联系我们</a></li>
+                    <li class="footer_li"><a href="#seccion3">关于我们</a></li>
+                    <li class="footer_li"><a href="#">评价我们</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer >
+        <div class="derechos">
+            <p>@2023 Eatly. 保留所有权利</p>
+        </div>
+        <div class="instagram">
+            <a href="#">
+                <img id="instagram" src="/assets/iconos/instagram-predeterminado.png" alt="icono_instagram">
+            </a> 
+        </div>
+        <div class="colores" id="color">
+            <p>↓</p>
+        </div>
+        <div class="menu_colores" id="menu_colores">
+            <div id="rojo"></div>
+            <div id="azul"></div>
+            <div id="violeta"></div>
+            <div id="verde"></div>
+        </div>
+        <div class="banderas">
+            <img id="bandera" src="/assets/banderas/icons8-china-50 (1).png" alt="">
+        </div>
+        <div class="menu_idioma" id="menu_idioma">
+            <a href="/lenguajes/english/index.html"><img class="banderitas" src="/assets/banderas/icons8-usa-50 (1).png" alt=""></a>
+            <a href="/index.html"><img class="banderitas"  src="/assets/banderas/icons8-spain-50.png" alt=""></a>
+            <a href="/lenguajes/frances/index.html"><img class="banderitas" src="/assets/banderas/icons8-france-50 (1).png" alt=""></a>
+        </div>
+    <script src="/js/colores_global.js"></script>
+    <script src="/js/global.js"></script>
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/app2.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+/* ANIMACIONES ANIMACIONES*/
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* SECCION 1 SECCION 1 SECCION 1*/
+
+.sec1-izq {
+    animation: desliz-izq 4s;
+    position: relative;
+}
+
+@keyframes desliz-izq {
+    0% {
+        left: -550px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.sec1-der {
+    animation: desliz-der 4s;
+    position: relative;
+}
+
+@keyframes desliz-der {
+    0% {
+        left: 550px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+/* SECCION 2 SECCION 2 SECCION 2*/
+
+@keyframes agrandar {
+    0% {
+        width: 40%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+/* SECCION 3 SECCION 3 SECCION 3*/
+
+#contenedor_sec3{
+    display: none;
+    position: relative;
+}
+
+/* SECCION 4 SECCION 4 SECCION 4*/
+
+.help {
+    position: relative;
+    animation: girar 3s;
+}
+
+.help:hover {
+    box-shadow: 0 0 5px 0 chocolate;
+}

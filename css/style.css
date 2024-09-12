@@ -1,0 +1,311 @@
+/* SECCION2 SECCION2 SECCION2 SERVICIOS SERVICIOS*/
+.seccion2-pag {
+    background-color: rgb(13, 13, 13);
+    padding-bottom: 50px;
+}
+
+.mitad-sec2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.mitad-sec2 div:hover {
+    box-shadow: var(--principal) 0 0 5px 0;
+    transform: scale(1.02);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+@media(max-width:880px) {
+    .mitad-sec2 {
+        grid-template-columns: 100%;
+    }
+}
+.mitad-sec2 div {
+    margin: 10px auto;
+    box-shadow: 0 0 1px var(--principal);
+}
+
+.seccion2-pag h2, h3 {
+    font-size: 35px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+}
+.seccion2-pag h2 {
+    padding: 30px 0;
+}
+@media(max-width:480px) {
+    .seccion2-pag h2 {
+        text-align: center;
+    }
+}
+
+.seccion2-pag h3 {
+    margin: 30px;
+    display: flex;
+    align-items: start;
+}
+
+.incluyen ul {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 90px;
+}
+
+.incluyen ul b {
+    font-size: 17px;
+    padding: 0 5px;
+    color: var(--principal);
+}
+
+.gradiente span {
+    color: var(--principal);
+}
+
+/* SECCION 3 SECCION 3 SECCION 3 SOBRE NOSOTROS SOBRE NOSOTROS*/
+
+.seccion3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(12, 12, 12);
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+@media(max-width:780px) {
+    .seccion3 h3 {
+        margin: 0;
+        margin-bottom: -150px;
+    }
+}
+@media(max-width:580px) {
+    .seccion3 h3 {
+        margin: 0;
+        margin-bottom: -50px;
+    }
+}
+
+.contenedor-sec3 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+@media(max-width:780px) {
+    .contenedor-sec3 {
+        grid-template-columns: 100%;
+    }
+    .sec3-izq img{
+        padding-top: 100px;
+    }
+    .sec3-der {
+        display: none;
+    }
+}
+
+
+
+.sec3-izq {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.sec3-izq p {
+    margin: 0 20px;
+}
+
+@media(max-width:480px) {
+    .sec3-izq p {
+        text-align: center;
+        margin: 0;
+    }
+}
+.sec3-izq img{
+    width: 50px;
+}
+
+.sec3-der img {
+    width: 90%;
+    height: 100%;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos div {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+/*SECCION4 SECCION4 SECCION4 COTIZA TU WEB COTIZA TU WEB*/
+
+.seccion4 {
+    padding-bottom: 100px;
+    height: 100%;
+    background-color: rgb(13, 13, 13);
+}
+
+.seccion4 h3, .seccion4 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.form {
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.precio_justo {
+    font-size: 18px;
+    text-align: center;
+}
+.precio_justo span{
+    margin-top: -20px;
+}
+
+.cobro {
+    color: #ff8c00;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+}
+
+.help {
+    background-color: var(--principal);
+    color: black;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+form select, input {
+    width: 200px;
+    height: 30px;
+}
+
+input:focus, select:focus{
+outline-style: none;
+border-color: var(--principal);
+border-style: double;
+}
+
+select option::selection {
+    background-color: var(--principal);
+}
+
+form input, option, select {
+    color: black;
+}
+
+.analisis {
+    margin: auto;
+    flex-direction: column;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.seccion4 button {
+    background-color: #fff;
+    border-style: none;
+    border-radius: 7px;
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+
+.ultima-fila {
+    display: block;
+}
+
+@media(max-width:780px) {
+    form {
+        height: 100%;
+        flex-direction: column;
+        margin: 150px 0;
+    }
+    .analisis {
+        width: 60%;
+    }
+    .analisis button {
+        margin: 50px 10px 0 10px;
+    }
+}
+
+.analisis input, textarea, input {
+    color: black;
+}
+
+.email {
+    margin: 50px auto;
+    margin-bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 780px) {
+    .email {
+        margin: 20px auto;
+    }
+}
+
+.analisis2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.analisis_contactanos:hover {
+    cursor: pointer;
+    background-color: var(--principal);
+    color: #fff;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+@media(max-width:480px) {
+    input {
+        border: none;
+    }
+}
+
+@media(max-width:480px) {
+    form input, option, select {
+        background-color: white;
+        color: black;
+    }
+}
+
+form div {
+    position: relative;
+    z-index: 998;
+}

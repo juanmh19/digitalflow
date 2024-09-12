@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+    <title>Digital Flow - Crea tu web</title>
+        <link rel="shortcut icon" href="assets/logos/logosin2.png" type="image/x-icon" sizes="10x10"/>
+    <meta
+  name="description"
+  content="Digital Flow se centra en construir soluciones
+  web de vanguardia que destaquen y conecten con tu audiencia.
+  Ya sea que necesites una página web corporativa,
+   una tienda en línea o una plataforma personalizada"/>
+</head>
+</head>
+<body class="content">
+    <!-- HEADER HEADER HEADER HEADER HEADER--->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <img id="logo_header" src="assets/logos/logosin4.png" alt="logo_header">
+            </div>
+
+            <div class="navegacion">
+                <ul>
+                    <li><a href="#" onclick="inicio()">Inicio</a></li>
+                    <li><a href="#seccion3">Nosotros</a></li>
+                    <li><a href="#seccion2">Servicios</a></li>
+                    <li><a href="#seccion4">Cotización</a></li>
+                    <li><a href="#" onclick="preguntas()">Preguntas</a></li>
+                </ul>
+            </div>
+
+            <img class="menu" id="hamburguesa" src="/assets/iconos/hambur_null.svg" alt="menu_hamburguesa">
+            <a href="#" onclick="contact()"><button aria-label="contactanos">Contact Us</button></a>
+        </nav>
+    </header>
+    <div class="menu_menu" id="contenido_hamburguesa">
+        <ul>
+            <li><a href="#" onclick="inicio()">Inicio</a></li>
+            <li><a href="#seccion3">Nosotros</a></li>
+            <li><a href="#seccion2">Servicios</a></li>
+            <li><a href="#seccion4">Cotización</a></li>
+            <li><a href="#" onclick="preguntas()">Preguntas</a></li>
+        </ul>
+    </div>
+
+
+    <!--HERO HERO HERO HERO HERO HERO HERO HERO /// SECCION1 SECCION1--->
+    <section class="seccion1">
+        <div id="particles-js"></div>
+        <div class="sec1-izq">
+            <h1>Transformamos tu visión <br> <span> En realidad digital</span></h1>
+            <p>Nuestro enfoque se centra en construir soluciones 
+                web de vanguardia que destaquen y conecten con tu audiencia.
+                Ya sea que necesites una página web corporativa, 
+                 una tienda en línea o una plataforma personalizada,
+                  nuestro equipo de expertos en desarrollo web trabajará en
+                   estrecha colaboración contigo para crear una experiencia digital que
+                    realmente haga la diferencia.</p>
+        </div>
+
+        <div class="sec1-der">
+            <img id="logo_seccion" src="assets/logos/logosin3-removebg-preview.png" alt="logo_seccion">
+        </div>
+    </section>
+    
+    <!--SECCION 2 SECCION2 SECCION2 SECCION2 /// QUE PAGINA NECESITAS--->
+    <section class="seccion2-pag" id="seccion2">
+        <h2>¿Qué Página necesitas?</h2>
+        
+        <div class="mitad-sec2">
+            
+                <div class="incluyen" id="pag_uno">
+                    <a href="paginas.html#sec2">
+                        <h3>Económica</h3>
+                        <ul>
+                            <li><b>✓</b>4 secciones</li>
+                            <li><b>✓</b>Posicionamiento</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>Google mi tienda</li>
+                            <li><b>✓</b>Whatsapp</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <div class="incluyen" id="pag_dos" >
+                    <a href="#" onclick="basica()">
+                        <h3>Básica</h3>
+                        <ul>
+                            <li><b>✓</b>5 secciones</li>
+                            <li><b>✓</b>Secciones Externas</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>Web Interactiva</li>
+                            <li><b>✓</b>Inicio de Sesion</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <div class="incluyen" id="pag_tres">
+                    <a href="#" onclick="autogestionable()">
+                        <h3 class="gradiente">Auto<span>gestionable</span></h3>
+                        <ul>
+                            <li><b>✓</b>Administable</li>
+                            <li><b>✓</b>Sistema de Pago</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>CEO Avanzado</li>
+                            <li><b>✓</b>Base de Datos</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <div class="incluyen" id="pag_cuatro" >
+                    <a href="#" id="apag_cuatro" onclick="ecommerce()">
+                        <h3 class="gradiente">E-<span>commerce</span></h3>
+                        <ul>
+                            <li><b>✓</b>Carrito de tienda</li>
+                            <li><b>✓</b>Diseño Grafico</li>
+                        </ul>
+                        <ul>
+                            <li><b>✓</b>Buscador de items</li>
+                            <li><b>✓</b>Control total</li>
+                        </ul> 
+                    </a>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION 3 SECCION 3 //// QUIENES SOMOS, ANIMACION ESTRELLA -->
+    <section class="seccion3" id="seccion3">
+        <h3>¿Quienes somos?</h3>
+        <div class="contenedor-sec3" id="contenedor_sec3">
+            <div class="sec3-izq">
+                <p>Somos una agencia web con sede en Argentina, donde comenzamos nuestra trayectoria hace 
+                    10 años. Nuestro equipo de expertos en diseño, programación y marketing en línea se 
+                    unió con la visión de ofrecer soluciones digitales de calidad en el mercado. Desde 
+                    entonces, hemos crecido y cumplido con éxito una variedad de proyectos,
+                    trabajando con clientes tanto nacionales como internacionales. Nos enorgullece ser una 
+                    agencia web argentina, aportando nuestra pasión, creatividad y experiencia para ayudar a 
+                    las empresas a destacar en el mundo digital.</p>
+                
+                <div class="iconos">
+                    <div>
+                        <img id="icono_web" src="assets/iconos/web-predeterminado.png" alt="icono_web">
+                        <span>+50</span>
+                        <p>Paginas <span class="animacion">creadas</span></p>
+                    </div>
+                    <div>
+                        <img id="estrella" src="assets/iconos/estrella-predeterminado.png" alt="icono_estrella">
+                        <span>4/5</span>
+                        <p>Recomendaciones</p>
+                    </div>
+                    <div>
+                        <img id="icono_mujer" src="assets/iconos/mujer-predeterminado.png" alt="icono_mujer">
+                        <span>+10</span>
+                        <p>Años de <span class="animacion">experiencia</span></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sec3-der">
+                <img src="assets/img/priscilla-du-preez-XT1htKRl_0A-unsplash.jpg" alt="imagen_persona_acompañamiento">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION 4 SECCION 4 //// COTIZA TU PAGINA, CALCULADORA DE PRECIOS -->
+    <section class="seccion4" id="seccion4">
+        <h3>Cotiza tu web</h3>
+        <p class="precio_justo">El precio justo para tu proyecto</p>
+        <p class="precio_justo"><span id="precio_justo">que no te cobren demas</span></p>
+
+        <form class="form" action="">
+            <div>
+                <label for="seccion">Secciones <a href="#" class="help" id="pregunta_uno" onclick="secciones()">?</a></label>
+                <input type="number" name="" id="seccion" class="select" min="0">
+    
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="select">Diseño Grafico <a href="#" onclick="selectio()" class="help">?</a></label>
+                <select name="" id="select" class="select">
+                    <option value="">Ninguno</option>
+                    <option value="50">Logotipos</option>
+                    <option value="50">Iconos</option>
+                    <option value="50">Ilustraciones</option>
+                    <option value="150">Completo</option>
+                    <option value="">Personalizado</option>
+                </select>
+    
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="alojamiento">Alojamiento Web <a href="#" class="help" onclick="alojamiento()">?</a></label>
+                <select name="" id="alojamiento" class="select">
+                    <option value="">No</option>
+                    <option value="50">Si</option>
+                </select>
+            </div>
+
+            <div>
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="seccion_externaa">Secciones Externas <a href="#" class="help" onclick="seccion_externa()">?</a></label> 
+                <input type="number" id="seccion_externaa" class="select" min="0">
+    
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="diseño_web">Diseño Web <a href="#" class="help" onclick="diseño_web()">?</a></label>
+                <select name="" id="diseño_web" class="select">
+                    <option value="">No</option>
+                    <option value="15">Basico</option>
+                    <option value="15">Retro</option>
+                    <option value="15">Minimalista</option>
+                    <option value="15">Moderno</option>
+                    <option value="">Personalizado</option>
+                </select>
+    
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="sistema_de_pago">Sistema de pago <a href="#" class="help" onclick="sistema_de_pago()">?</a></label>
+                <select name="" id="sistema_de_pago" class="select">
+                    <option value="0">No</option>
+                    <option value="25">Directo</option>
+                    <option value="50">Carrito</option>
+                </select>
+            </div>
+
+            <div>
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="seo">SEO <a href="#" class="help" onclick="seo()">?</a></label>
+                <select name="" id="seo" class="select">
+                    <option value="">No</option>
+                    <option value="25">Basico</option>
+                    <option value="50">completo</option>
+                </select>
+    
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="mantenimiento">Mantenimiento <a href="#" class="help" onclick="mantenimiento()">?</a></label>
+                <select name="" id="mantenimiento" class="select">
+                    <option value="">No</option>
+                    <option value="25">Economico</option>
+                    <option value="50">Basico</option>
+                    <option value="90">Completo</option>
+                    <option value="140">Dedicado</option>
+                </select>
+    
+                <!--NUEVO INPUT NUEVO INPUT--->
+                <label for="autogestion">Autogestion <a href="#" class="help" onclick="autogestion()">?</a></label>
+                <select name="" id="autogestion" class="select">
+                    <option value="">No</option>
+                    <option value="50">Secciones</option>
+                    <option value="100">Productos</option>
+                    <option value="150">Completa</option>
+                    <option value="">Personalizada</option>
+                </select>
+            </div>
+        </form>
+            <div class="analisis">
+                <div class="analisis2">
+                    <button class="precio" aria-label="precio:"></button>
+                    <button onclick="contact()" class="analisis_contactanos" aria-label="contactanos">Contactanos</button>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- FOOTER FOOTER FOOTER FOOTER -->
+    <footer >
+        <div class="imagen-footer">
+            <img id="logo_footer" src="/assets/logos/logosin4.png" alt="logo_footer">
+            <p>Digital <span>Flow</span></p>
+        </div>
+        <div class="contenedor-footer">
+            <div>
+                <ul>
+                    <li><strong>Servicios</strong></li>
+                    <li class="footer_li"><a href="#seccion2">Paginas Webs</a></li>
+                    <li class="footer_li"><a href="#secion4">Cotizaciones</a></li>
+                    <li class="footer_li"><a href="preguntas.html#seccion2_preg">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>Nosotros</strong></li>
+                    <li class="footer_li"><a href="paginas.html#secc2-form">Contactanos</a></li>
+                    <li class="footer_li"><a href="#seccion3">Sobre nosotros</a></li>
+                    <li class="footer_li"><a href="#">Calificanos</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer >
+        <div class="derechos">
+            <p>@2023 Eatly. All rights reserved</p>
+        </div>
+        <div class="instagram">
+            <a href="#">
+                <img id="instagram" src="assets/iconos/instagram-predeterminado.png" alt="icono_instagram">
+            </a> 
+        </div>
+        <div class="colores" id="color">
+            <p>↓</p>
+        </div>
+        <div class="menu_colores" id="menu_colores">
+            <div id="rojo"></div>
+            <div id="azul"></div>
+            <div id="violeta"></div>
+            <div id="verde"></div>
+        </div>
+        <div class="banderas">
+            <img id="bandera" src="assets/banderas/icons8-spain-50.png" alt="">
+        </div>
+        <div class="menu_idioma" id="menu_idioma">
+            <a href="lenguajes/english/index.html"><img class="banderitas" src="assets/banderas/icons8-usa-50 (1).png" alt=""></a>
+            <a href="lenguajes/mandarin/index.html"><img class="banderitas" src="assets/banderas/icons8-china-50 (1).png" alt=""></a>
+            <a href="lenguajes/frances/index.html"><img class="banderitas" src="assets/banderas/icons8-france-50 (1).png" alt=""></a>
+        </div>
+    <script src="js/colores_global.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app2.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

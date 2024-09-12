@@ -1,0 +1,68 @@
+/* SECCION DE LAS PREGUNTAS FRECUENTES 2*/
+.seccion2-preg h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.seccion2-preg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(12, 12, 12);
+}
+
+/*tamaño de las preguntas*/
+.contenedor-preg {
+    width: 50%;
+}
+
+@media (max-width: 810px) {
+    .contenedor-preg{
+        width: 70%;
+    }
+}
+
+@media (max-width: 590px) {
+    .contenedor-preg{
+        width: 90%;
+    }
+}
+
+.preguntas{
+    position: relative;
+    z-index: 998;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #111111d7;
+    border-color: var(--principal);
+    border-width: 1px;
+    border-style: double;
+}
+
+.preg-span {
+    color: var(--principal);
+}
+
+.preguntas:hover {
+    box-shadow: 0 0 5px var(--principal);
+}
+
+/*separa contenido del titulo*/
+.oculto p {
+    padding: 10px;
+}
+
+/*oculta de forma predeterminada las respuestas*/
+.oculto {
+    display: none;
+}

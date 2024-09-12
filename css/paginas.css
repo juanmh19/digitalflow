@@ -1,0 +1,256 @@
+.sec2 {
+    overflow: hidden;
+    height: 100%;
+    background-color: rgb(12, 12, 12);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 50px;
+}
+
+.sec_img  {
+    margin: auto;
+}
+
+.sec_img img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 980px) {
+    .sec_img img{
+        height: 10%;
+    }
+}
+
+@media (max-width: 850px) {
+    .sec_img img{
+        display: none;
+    }
+    .sec2 {
+        grid-template-columns: 100%;
+        margin: 0 25px;
+    }
+}
+@media (max-width: 600px) {
+    .sec_paginas {
+        margin: 0;
+    }
+    .distintas_paginas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec_cajas {
+        display: flex;
+    }
+}
+
+.sec_paginas {
+    color: var(--principal);
+}
+
+.distintas_paginas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.distintas_paginas p:hover {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sec_texto {
+    width: 90%;
+    padding: 50px 0;
+}
+
+
+
+.sec_cajas {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec_cajas div {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(12, 12, 12);
+    box-shadow: 0 0 1px var(--principal);
+}
+
+.sec_cajas div p {
+    padding: 10px 0;
+}
+
+.sec_contenido button {
+    background-color: var(--principal);
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+}
+@media (max-width: 780px) {
+    .sec_texto {
+        width: 100%;
+    }
+    .sec_cajas {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+    #pag_caja1, #pag_caja2, #pag_caja3 {
+        width: 90%;
+    }
+}
+
+.sec_contenido button:hover {
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+#pag_caja2 p{
+    color: var(--principal);
+}
+
+#contenido_paginas {
+    position: relative;
+}
+
+#economica {
+    color: var(--principal);
+}
+
+@media (max-width: 580px) {
+    .sec_contenido button {
+        margin: 40px 10%;
+    }
+}
+
+/*FORMULARIO FORMULARIO FORMULARIO FORMULARIO*/
+
+form input {
+    position: relative; 
+    z-index: 998;
+}
+
+h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion2-pag {
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 450px;
+    height: 70px;
+    resize: vertical;
+    color: black;
+    background-color: white!important;
+}
+
+.division_form {
+    display: flex;
+}
+.division_form div{
+    padding: 25px;
+}
+
+.dos_input {
+    height: 35px;
+    width: 200px;
+    color: black;
+}
+
+.input {
+    width: 450px;
+    height: 35px;
+    color: black;
+}
+
+form button, .submit {
+    height: 35px;
+    width: 120px;
+    margin: 50px 25px;
+}
+@media (max-width: 580px) {
+    form button, .submit {
+        margin: 20px;
+    }
+}
+
+option {
+    color: black;
+}
+
+form button:first-child {
+    cursor: pointer;
+    color: black;
+    border: none;
+    border-radius: 7px;
+}
+
+form span {
+    color: rgba(255, 255, 255, 0.548);
+}
+.submit {
+    color: #e9e9e9;
+    cursor: pointer;
+    background-color: var(--principal);
+    border: none;
+    border-radius: 7px;
+}
+.submit:hover {
+    transition: 1s;
+    border-radius: 15px;
+}
+
+label {
+    margin-top: 20px;
+    display: block;
+}
+
+@media (max-width: 580px) {
+    input, select, button, textarea {
+        width: 80%!important;
+    }
+    label span {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    form {
+        margin-top: 0;
+    }
+}
+
+@keyframes desliz {
+    0% {
+       left: 120%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@media(max-width:480px) {
+    form input, option, select {
+        background-color: white;
+        color: black;
+    }
+}
